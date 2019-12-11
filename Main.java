@@ -16,15 +16,14 @@ public class Main {
         writer.write(s);
         writer.close();
         String w = in.next();
-        while (w!=null) {
-            boolean first = w.startsWith("a");
+        while (in.hasNext()) {
+            boolean first = w.startsWith("H");
             if (first==true){
                 writer1.write(w);
-                System.out.println(w);
             }
             w = in.next();
         }
-        writer1.close();
         in.close();
+        writer1.close();
     }
 }
