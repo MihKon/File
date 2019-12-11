@@ -17,7 +17,7 @@ public class Main {
         writer.close();
         String w = in.next();
         while (in.hasNext()) {
-            boolean first = w.startsWith("H");
+            boolean first = w.startsWith("a");
             if (first==true){
                 writer1.write(w);
             }
